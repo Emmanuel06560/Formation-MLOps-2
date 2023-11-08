@@ -24,7 +24,7 @@ jobs:
           python -m pytest --cov=formation_indus_ds_avancee/ tests/test_unit/ -vv -p no:warnings
           ./tests/tests_pyramid.sh
       # Add behave command
-  build:
+  qualite:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
